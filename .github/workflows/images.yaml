@@ -13,6 +13,9 @@ on:
     paths:
       - 'images/**'
 
+  schedule:
+    - cron: '*/55 * * * 1-5'
+
 permissions:
   contents: write
   packages: write

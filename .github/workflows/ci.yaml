@@ -28,6 +28,8 @@ on:
         required: false
         type: boolean
 
+  schedule:
+    - cron: '*/55 * * * 1-5'
 
 permissions:
   contents: read
